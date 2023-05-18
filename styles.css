@@ -1,1 +1,45 @@
 /*  your css code here. If applicable */
+.container{
+    background-image: url(https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_1280.jpg);
+    
+    width: 100%;
+}
+.container{
+    display: grid;
+    /* gap:10px 10px; */
+    /* grid-row-gap:10px;
+    grid-column-gap:10px; */
+
+    grid-template-columns: repeat(3,28%);
+   
+}
+.item img{
+    width: 200px;
+    height: 200px;
+    /* position: relative;
+    left:70px; */
+    /* width: 300px;
+    height: 300px; */
+}
+@media screen  and (min-width:567px) and (max-width:900px){
+    .container{
+        background-image: url(https://media.istockphoto.com/id/171378323/photo/seamless-rhombus-textured-paper-background.jpg?s=1024x1024&w=is&k=20&c=uWBj5XPnVtXp3lKE8q2rw9iLB4aWgmret3BcXT0D1Y8=);
+        width: 100%;
+    }
+    .container{
+        display: grid;
+        /* gap:10px 10px; */
+        grid-row-gap:10px;
+        grid-column-gap:10px;
+    
+        grid-template-columns: repeat(3,25%);
+       
+    }
+    .item{
+        position: relative;
+        left:70px;
+        width: 300px;
+        height: 300px;
+    }
+    
+}
