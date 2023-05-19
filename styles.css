@@ -1,6 +1,11 @@
 /*  your css code here. If applicable */
 .container{
-    background-image: url(https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_1280.jpg);
+	background-color:#34282C;
+	background-image:url("paper.gif");
+/*     background-image: url(https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_1280.jpg);*/
+	background-repeat:repeat-y; 
+	
+	
     
     width: 100%;
 }
