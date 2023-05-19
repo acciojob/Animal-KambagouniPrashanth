@@ -1,9 +1,12 @@
 /*  your css code here. If applicable */
+body{
+	background-color:#34282C;
+}
 .container{
 	background-color:#34282C;
-	background-image:url("paper.gif");
-/*     background-image: url(https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_1280.jpg);*/
-	background-repeat:repeat-y; 
+
+    background-image: url(https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_1280.jpg);
+	
 	
 	
     
@@ -11,9 +14,7 @@
 }
 .container{
     display: grid;
-    /* gap:10px 10px; */
-    /* grid-row-gap:10px;
-    grid-column-gap:10px; */
+    
 	gap:10px;
 	
 
