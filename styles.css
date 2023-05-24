@@ -1,21 +1,21 @@
 /*  your css code here. If applicable */
 #body{
-	background-color:#34282C;
+	background-image:url(https://media.istockphoto.com/id/1141019724/vector/straight-diagonal-lines-background-lined-pattern-vector-illustration.jpg?s=612x612&w=0&k=20&c=2rO3qoXqa8ZiBMYa5_bU9tXiqj9zft5FRSiZ-5oMW8I=);
+	background-repeat:repeat-y;
 	color:white;
 	text-align:center;
 	height:150vh;
+	width:100%;
+	
 }
 .container .item{
 	
-	background-image:url(https://media.istockphoto.com/id/1141019724/vector/straight-diagonal-lines-background-lined-pattern-vector-illustration.jpg?s=612x612&w=0&k=20&c=2rO3qoXqa8ZiBMYa5_bU9tXiqj9zft5FRSiZ-5oMW8I=);
-	background-repeat:repeat-y;
+	background-color:#34282C;
+	
 }
 .container{
-/* 	background-color:#34282C;
-
-    background-image: url(https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_1280.jpg);
-	 */
-/* width: 100%; */
+	background-color:#34282C;
+	width: 50%;
 }
 .container{
     display: grid;
